@@ -14,3 +14,25 @@ I am an aspiring developer learning C# to enhance my programming skills. This re
 -https://github.com/salehjoseph/mycsharpjjourney24/commit/4569304bc79525f6c95d8bffddf4c229dccd8afe
 
 ## Code Snippets
+//Alright lets go logical with C#
+string permission = "Admin|Manager";
+int level = 60;
+//permision.Contains('Admin');
+ if (level > 55)
+        {
+            Console.WriteLine("Welcome, Super Admin user.");
+        }
+        else if (level <= 55 && level >= 20)
+        {
+            Console.WriteLine("Welcome, Admin user.");
+        }
+        else if (level < 20)
+        {
+            Console.WriteLine("You do not have sufficient privileges.");
+        }
+
+        // Check permissions if level is less than 55
+        if (!permission.Contains("Admin") && !permission.Contains("Manager"))
+        {
+            Console.WriteLine("You do not have sufficient privileges.");
+        }
