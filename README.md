@@ -1,7 +1,7 @@
 Welcome to my C# Learning Repository! This repository contains various projects, exercises, and code snippets that I am working on as I learn C# programming.
 
 ## Table of Contents
--None
+-Exercise - Complete a challenge activity using conditional operators
 
 ## Introduction
 
@@ -11,6 +11,6 @@ I am an aspiring developer learning C# to enhance my programming skills. This re
 -Allprojeects will be beginner friendly.
 
 ## Exercises
--none yet 
+-https://github.com/salehjoseph/mycsharpjjourney24/commit/4569304bc79525f6c95d8bffddf4c229dccd8afe
 
 ## Code Snippets
