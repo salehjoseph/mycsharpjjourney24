@@ -1,69 +1,97 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿int[] numbers = { 4, 8, 15, 16, 23, 42 };
 
-Console.WriteLine("a"=="a ");// This will return false surprisingly the space counts for the case of C#
-//Next we have the equality check that lets' users input values suchas Y or y as input and are accepted
+//bool found =true;
+int total = 0;
+foreach (int number in numbers)
+{
+    total += number;
 
-string value1= " a";
-string value2= "A ";
+    if (number == 42)
+    {
+        Console.WriteLine("Set contains 42");
+    }
+}
+Console.WriteLine($"Total: {total}");
 
-//output 
-Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
 
-string text = "The lazy fox jumps over the duck";
+int employeeLevel = 100;
+string employeeName = "John Smith";
 
-Console.WriteLine(text.Contains("fox"));// This returns True for the case of string variables 
+string title = "";
 
-int a = 5; 
-int b =6;
+switch (employeeLevel)
+{
+    case 100:
+    case 200:
+        title = "Senior Associate";
+        break;
+    case 300:
+        title = "Manager";
+        break;
+    case 400:
+        title = "Senior Manager";
+        break;
+    default:
+        title = "Associate";
+        break;
+}
 
-Console.WriteLine(a!=b);// this reuturn true 
+//Console.WriteLine($"{employeeName}, {title}");
 
-int saleAmount = 1001;
-int discount = (saleAmount > 1000 )? 100 : 50;
-Console.WriteLine($"Discount: {discount}");
-int purchaseValue =1000;
+//Product: Large Maroon Sweat shirt- Changing codeblock to switch case statements
+// SKU = Stock Keeping Unit.
+// SKU = Stock Keeping Unit
+string sku = "01-MN-L";
 
-//Discount 
-int discount2 = purchaseValue >1000 ? 100 : 50 ;
+string[] product = sku.Split('-');
 
-//output 
-Console.WriteLine($"Discount 2: {discount2}");
+string type = "";
+string color = "";
+string size = "";
 
-//Exercise - Complete a challenge activity using conditional operators
-// Conditional operator challenge
-// In this challenge, you'll implement a conditional operator to simulate a "coin flip". 
-// The resulting decision logic will display either heads or tails.
+switch (product[0])
+{
+    case "01":
+        type = "Sweat shirt";
+        break;
+    case "02":
+        type = "T-Shirt";
+        break;
+    case "03":
+        type = "Sweat pants";
+        break;
+    default:
+        type = "Other";
+        break;
+}
 
-Random coin = new Random();
+switch (product[1])
+{
+    case "BL":
+        color = "Black";
+        break;
+    case "MN":
+        color = "Maroon";
+        break;
+    default:
+        color = "White";
+        break;
+}
 
-int flip = coin.Next(0,2);
-//result from my conditional statm'nt
-string result = (flip == 0 )? "heads":"Tails";
-Console.WriteLine($"Result: {result}");
+switch (product[2])
+{
+    case "S":
+        size = "Small";
+        break;
+    case "M":
+        size = "Medium";
+        break;
+    case "L":
+        size = "Large";
+        break;
+    default:
+        size = "One Size Fits All";
+        break;
+}
 
-//Alright lets go logical with C#
-string permission = "Admin|Manager";
-int level = 60;
-//permision.Contains('Admin');
- if (level > 55)
-        {
-            Console.WriteLine("Welcome, Super Admin user.");
-        }
-        else if (level <= 55 && level >= 20)
-        {
-            Console.WriteLine("Welcome, Admin user.");
-        }
-        else if (level < 20)
-        {
-            Console.WriteLine("You do not have sufficient privileges.");
-        }
-
-        // Check permissions if level is less than 55
-        if (!permission.Contains("Admin") && !permission.Contains("Manager"))
-        {
-            Console.WriteLine("You do not have sufficient privileges.");
-        }
-    
-
+Console.WriteLine($"Product: {size} {color} {type}");
