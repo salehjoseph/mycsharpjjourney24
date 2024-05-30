@@ -2,6 +2,7 @@ Welcome to my C# Learning Repository! This repository contains various projects,
 
 ## Table of Contents
 -Exercise - Complete a challenge activity using conditional operators
+-Exercise  - Fizzbuzz Challenge
 
 ## Introduction
 
@@ -12,6 +13,7 @@ I am an aspiring developer learning C# to enhance my programming skills. This re
 
 ## Exercises
 -https://github.com/salehjoseph/mycsharpjjourney24/commit/4569304bc79525f6c95d8bffddf4c229dccd8afe
+https://github.com/salehjoseph/mycsharpjjourney24/blob/main/Program.cs
 
 ## Code Snippets
 //Alright lets go logical with C#
