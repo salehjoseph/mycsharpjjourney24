@@ -1,97 +1,43 @@
-﻿int[] numbers = { 4, 8, 15, 16, 23, 42 };
-
-//bool found =true;
-int total = 0;
-foreach (int number in numbers)
+﻿for (int i = 0; i <10; i++)
 {
-    total += number;
+    //Console.WriteLine(i);
+    //this breaks the iteration prematurely 
+    if(i==7) break;
+}
 
-    if (number == 42)
+//Looping through each element of an array using the for loop
+string[] names = { "Alex", "Eddie", "David", "Michael" };
+
+for (int i = 0; i < names.Length; i++)
+{
+    if (names[i] == "David")
     {
-        Console.WriteLine("Set contains 42");
+        names[i] = "Sammy";
     }
 }
-Console.WriteLine($"Total: {total}");
 
-
-int employeeLevel = 100;
-string employeeName = "John Smith";
-
-string title = "";
-
-switch (employeeLevel)
+foreach (var name in names)
 {
-    case 100:
-    case 200:
-        title = "Senior Associate";
-        break;
-    case 300:
-        title = "Manager";
-        break;
-    case 400:
-        title = "Senior Manager";
-        break;
-    default:
-        title = "Associate";
-        break;
+  //  Console.WriteLine(name);
 }
 
-//Console.WriteLine($"{employeeName}, {title}");
+//Next we shall have the Fizz Bazz Challenge 
 
-//Product: Large Maroon Sweat shirt- Changing codeblock to switch case statements
-// SKU = Stock Keeping Unit.
-// SKU = Stock Keeping Unit
-string sku = "01-MN-L";
+// Here are the FizzBuzz rules that you need to implement in your code project:
 
-string[] product = sku.Split('-');
+// Output values from 1 to 100, one number per line, inside the code block of an iteration statement.
+// When the current value is divisible by 3, print the term Fizz next to the number.
+// When the current value is divisible by 5, print the term Buzz next to the number.
+// When the current value is divisible by both 3 and 5, print the term FizzBuzz next to the number.
 
-string type = "";
-string color = "";
-string size = "";
-
-switch (product[0])
+for (int i = 1; i <= 100; i++)
 {
-    case "01":
-        type = "Sweat shirt";
-        break;
-    case "02":
-        type = "T-Shirt";
-        break;
-    case "03":
-        type = "Sweat pants";
-        break;
-    default:
-        type = "Other";
-        break;
+    if ((i % 3 == 0) && (i % 5 == 0))
+        Console.WriteLine($"{i} - FizzBuzz");
+    else if (i % 3 == 0)
+        Console.WriteLine($"{i} - Fizz");
+    else if (i % 5 == 0)
+        Console.WriteLine($"{i} - Buzz");
+    else
+        Console.WriteLine($"{i}");
 }
-
-switch (product[1])
-{
-    case "BL":
-        color = "Black";
-        break;
-    case "MN":
-        color = "Maroon";
-        break;
-    default:
-        color = "White";
-        break;
-}
-
-switch (product[2])
-{
-    case "S":
-        size = "Small";
-        break;
-    case "M":
-        size = "Medium";
-        break;
-    case "L":
-        size = "Large";
-        break;
-    default:
-        size = "One Size Fits All";
-        break;
-}
-
-Console.WriteLine($"Product: {size} {color} {type}");
