@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SALIM\\Desktop\\C#projects\\C#Projects\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\SALIM\\Desktop\\mycsharpjjourney24\\C#projects\\C#Projects\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SALIM\\Desktop\\C#projects\\C#Projects\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\SALIM\\Desktop\\mycsharpjjourney24\\C#projects\\C#Projects\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SALIM\\Desktop\\C#projects\\C#Projects\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\SALIM\\Desktop\\mycsharpjjourney24\\C#projects\\C#Projects\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\SALIM\\Desktop\\C#projects\\C#Projects\\TestProject\\TestProject.csproj",
+        "projectPath": "C:\\Users\\SALIM\\Desktop\\mycsharpjjourney24\\C#projects\\C#Projects\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\SALIM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SALIM\\Desktop\\C#projects\\C#Projects\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\SALIM\\Desktop\\mycsharpjjourney24\\C#projects\\C#Projects\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SALIM\\AppData\\Roaming\\NuGet\\NuGet.Config"
