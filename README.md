@@ -9,7 +9,7 @@ Welcome to my C# Learning Repository! This repository contains various projects,
 I am an aspiring developer learning C# to enhance my programming skills. This repository serves as a place to document my journey and showcase the projects and exercises I complete along the way. Feedback and contributions are welcome!
 
 ## Projects
--Allprojeects will be beginner friendly.
+-All projeects will be beginner friendly.
 
 ## Exercises
 -https://github.com/salehjoseph/mycsharpjjourney24/commit/4569304bc79525f6c95d8bffddf4c229dccd8afe
