@@ -27,7 +27,7 @@ do
             do
             {
                 // Read the user input
-                string input = Console.ReadLine();
+                string? input = Console.ReadLine();
 
                 // Check if the input is a valid integer
                 if (int.TryParse(input, out userInput))
