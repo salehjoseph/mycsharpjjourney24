@@ -169,4 +169,4 @@ do
                     $"We currently have {petCount} pets that need homes. We can manage {(maxPets - petCount)} more."
                 );
             }
-
+```
