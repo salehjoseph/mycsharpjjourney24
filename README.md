@@ -17,7 +17,7 @@ I am an aspiring developer learning C# to enhance my programming skills. This re
 -https://github.com/salehjoseph/mycsharpjjourney24/blob/main/Program.cs
 
 ## Code Snippets
-//Alright lets go logical with C#
+```//Alright lets go logical with C#
 string permission = "Admin|Manager";
 int level = 60;
 //permision.Contains('Admin');
