@@ -13,8 +13,8 @@ I am an aspiring developer learning C# to enhance my programming skills. This re
  The Contoso Pets Application is an application that's used to find homes for stray or abandoned pets
 
 ## Exercises
--https://github.com/salehjoseph/mycsharpjjourney24/commit/4569304bc79525f6c95d8bffddf4c229dccd8afe
--https://github.com/salehjoseph/mycsharpjjourney24/blob/main/Program.cs
+- (Exercise One)[https://github.com/salehjoseph/mycsharpjjourney24/commit/4569304bc79525f6c95d8bffddf4c229dccd8afe]
+- (Exercise Two)[https://github.com/salehjoseph/mycsharpjjourney24/blob/main/Program.cs]
 
 ## Code Snippets
 ```//Alright lets go logical with C#
