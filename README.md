@@ -9,7 +9,7 @@ Welcome to my C# Learning Repository! This repository contains various projects,
 I am an aspiring developer learning C# to enhance my programming skills. This repository serves as a place to document my journey and showcase the projects and exercises I complete along the way. Feedback and contributions are welcome!
 
 ## Projects
--Contoso Pets Application[Click Here](https://github.com/salehjoseph/mycsharpjjourney24/tree/main/Contoso%20Pets%20application)
+-Contoso Pets Application [Click Here](https://github.com/salehjoseph/mycsharpjjourney24/tree/main/Contoso%20Pets%20application)
  The Contoso Pets Application is an application that's used to find homes for stray or abandoned pets
 
 ## Exercises
