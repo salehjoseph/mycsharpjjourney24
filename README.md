@@ -1,8 +1,8 @@
 Welcome to my C# Learning Repository! This repository contains various projects, exercises, and code snippets that I am working on as I learn C# programming.
 
 ## Table of Contents
--Exercise - Complete a challenge activity using conditional operators
--Exercise  - Fizzbuzz Challenge
+- Exercise  (Complete a challenge activity using conditional operators)
+- Exercise   (Fizzbuzz Challenge)
 
 ## Introduction
 
