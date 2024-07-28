@@ -1,68 +1,35 @@
-// using System;
-
-// int[] schedule = {800, 1200, 1600, 2000};
-
-// void DisplayAdjustedTimes(int[] times, int currentGMT, int newGMT) 
-// {
-
-// int diff = 0;
-// if (Math.Abs(newGMT) > 12 || Math.Abs(currentGMT) > 12)
-// {
-//     Console.WriteLine("Invalid GMT");
-// }
-// else if (newGMT <= 0 && currentGMT <= 0 || newGMT >= 0 && currentGMT >= 0) 
-// {
-//     diff = 100 * (Math.Abs(newGMT) - Math.Abs(currentGMT));
-// } 
-// else 
-// {
-//     diff = 100 * (Math.Abs(newGMT) + Math.Abs(currentGMT));
-// }
-
-// for (int i = 0; i < times.Length; i++) 
-// {
-//     int newTime = ((times[i] + diff)) % 2400;
-//     Console.WriteLine($"{times[i]} -> {newTime}");
-// }
-// }
-
-
-// string[] students = {"Jenna", "Ayesha", "Carlos", "Viktor"};
-
-// DisplayStudents(students);
-// DisplayStudents(new string[] {"Robert","Vanya"});
-
-// void DisplayStudents(string[] students) 
-// {
-//     foreach (string student in students) 
-//     {
-//         Console.Write($"{student}, ");
-//     }
-//     Console.WriteLine();
-// }
-
-double pi = 3.14159;
-
-void PrintCircleArea(int radius)
+string[,] corporate = 
 {
-    double area = pi * (radius * radius);
-    Console.WriteLine($"Area = {area} cm2");
+    {"Robert", "Bavin"}, {"Simon", "Bright"},
+    {"Kim", "Sinclair"}, {"Aashrita", "Kamath"},
+    {"Sarah", "Delucchi"}, {"Sinan", "Ali"}
+};
+
+string[,] external = 
+{
+    {"Vinnie", "Ashton"}, {"Cody", "Dysart"},
+    {"Shay", "Lawrence"}, {"Daren", "Valdes"}
+};
+
+string externalDomain = "hayworth.com";
+
+for (int i = 0; i < corporate.GetLength(0); i++) 
+{
+    string corp = "@contoso.com";
+    string firstName =  corporate[i,0];
+    string lastName = corporate[i,1];
+    // display internal email addresses
+   
+    string email = firstName.Substring(0,2) + lastName +corp;
+    Console.WriteLine(email.ToLower());
 }
 
-void PrintCircleCircumference(int radius)
+for (int i = 0; i < external.GetLength(0); i++) 
 {
-    double circumference = 2 * pi * radius;
-    Console.WriteLine($"Circumference = {circumference} cm2");
-}
+    // display external email addresses
+    string firstName = external[i,0];
+    string lastName = external[i,1];
 
-PrintCircleArea(12);
-double pi = 3.14159;
-PrintCircleInfo(12);
-PrintCircleInfo(24);
-
-void PrintCircleInfo(int radius) 
-{
-    Console.WriteLine($"Circle with radius {radius}");
-    PrintCircleArea(radius);
-    PrintCircleCircumference(radius);
+    string email = firstName.Substring(0,2) + lastName + externalDomain;
+    Console.WriteLine(email.ToLower());
 }
